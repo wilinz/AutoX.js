@@ -1,3 +1,13 @@
+# This is an Android CI build configuration for GitHub Actions.
+# The workflow is triggered by a push event on tags or manually via `workflow_dispatch`.
+
+# Secrets are required for signing the APK, uploading to Aliyun OSS, and for other sensitive operations.
+# Make sure the following secrets are configured in your GitHub repository:
+# - ASIGNING_KEY: Base64 encoded keystore signing key
+# - AALIAS: Alias for signing the APK
+# - AKEY_STORE_PASSWORD: Password for the keystore
+# - AKEY_PASSWORD: Password for the key alias
+
 name: Android CI build
 on:
   workflow_dispatch:
