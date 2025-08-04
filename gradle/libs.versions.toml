@@ -201,7 +201,7 @@ andserver-processor = { module = "com.yanzhenjie.andserver:processor", version.r
 andserver-api = { module = "com.yanzhenjie.andserver:api", version.ref = "andserver" }
 andserver = { module = "com.yanzhenjie.andserver:plugin", version.ref = "plugin-version" }
 
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.2.1" }
 
 enhancedfloaty = { module = "com.github.hyb1996:EnhancedFloaty", version.ref = "enhancedfloaty-version" }
 android-multi-level-listview = { module = "com.github.hyb1996:android-multi-level-listview", version.ref = "android-multi-level-listview-version" }
